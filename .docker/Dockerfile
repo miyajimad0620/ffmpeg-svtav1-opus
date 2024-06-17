@@ -66,7 +66,7 @@ RUN \
     --enable-libmp3lame \
     --enable-libopus \
     --enable-libsvtav1 \
-    --enable-libvorbis \
+    --enable-libvorbis && \
   PATH="$HOME/bin:$PATH" make && \
   make install && \
   hash -r
