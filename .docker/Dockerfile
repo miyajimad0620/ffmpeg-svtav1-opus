@@ -72,5 +72,6 @@ RUN \
   hash -r
 
 # remove caches
+RUN rm -rf ~/ffmpeg_sources
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/*
